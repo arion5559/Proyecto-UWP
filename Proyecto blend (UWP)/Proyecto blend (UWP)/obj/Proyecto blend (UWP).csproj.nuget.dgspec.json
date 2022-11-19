@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JCPAG\\source\\respos DI\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj": {}
+    "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj": {}
   },
   "projects": {
-    "C:\\Users\\JCPAG\\source\\respos DI\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JCPAG\\source\\respos DI\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
         "projectName": "Proyecto blend (UWP)",
-        "projectPath": "C:\\Users\\JCPAG\\source\\respos DI\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
-        "packagesPath": "C:\\Users\\JCPAG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JCPAG\\source\\respos DI\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\JCPAG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,14 @@
       "frameworks": {
         "uap10.0.17763": {
           "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.14, )"

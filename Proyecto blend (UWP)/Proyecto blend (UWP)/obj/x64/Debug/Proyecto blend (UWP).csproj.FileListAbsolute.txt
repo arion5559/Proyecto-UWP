@@ -1,0 +1,76 @@
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Proyecto blend (UWP).csproj.AssemblyReference.cache
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\App.g.i.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\App.g.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Bienvenida.g.i.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Bienvenida.g.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\LogIn.g.i.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\LogIn.g.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Principal.g.i.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Principal.g.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Registro.g.i.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Registro.g.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\App.xaml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Bienvenida.xaml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\LogIn.xaml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Principal.xaml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Registro.xaml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\App.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Bienvenida.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\LogIn.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Principal.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Registro.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\App.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Vistas\Bienvenida.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Vistas\LogIn.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Vistas\Principal.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Vistas\Registro.xbf
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Proyecto blend (UWP).xr.xml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Proyecto blend (UWP).exe
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Proyecto blend (UWP).pdb
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\resources.pri
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\AppxManifest.xml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Core\Proyecto blend (UWP).exe
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Proyecto blend (UWP).build.appxrecipe
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\System.Runtime.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Proyecto blend (UWP).csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Proyecto blend (UWP).csproj.CopyComplete
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Proyecto blend (UWP).exe
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Proyecto blend (UWP).pdb
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\FxResources.Microsoft.Extensions.DependencyInjection.SR.resw
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\FxResources.Microsoft.Extensions.DependencyInjection.Abstractions.SR.resw
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\FxResources.Microsoft.Extensions.Logging.SR.resw
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\FxResources.Microsoft.Extensions.Logging.Abstractions.SR.resw
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\FxResources.Microsoft.Extensions.Options.SR.resw
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\FxResources.Microsoft.Extensions.Primitives.SR.resw
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\FxResources.System.Diagnostics.DiagnosticSource.SR.resw
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\priconfig.xml
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\resources.resfiles
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\pri.resfiles
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\qualifiers.txt
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
