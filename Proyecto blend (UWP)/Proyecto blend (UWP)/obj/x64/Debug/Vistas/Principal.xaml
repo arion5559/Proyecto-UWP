@@ -6,10 +6,10 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Light">
 
-    <Grid>
-        <NavigationView x:ConnectionId='2' CompactModeThresholdWidth="0" x:Name="NavigationViewControl" >
+    <Grid RequestedTheme="Light">
+        <NavigationView x:ConnectionId='2' CompactModeThresholdWidth="0" x:Name="NavigationViewControl" RequestedTheme="Light" >
             <NavigationView.MenuItems>
                 <NavigationViewItem x:ConnectionId='3' Content="Login" x:Name="Login" Icon="Contact"/>
                 <NavigationViewItem x:ConnectionId='4' Content="Compra" x:Name="Compra" Icon="Shop" />

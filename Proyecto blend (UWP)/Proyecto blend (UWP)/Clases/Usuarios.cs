@@ -26,12 +26,14 @@ namespace Proyecto_blend__UWP_.Clases
             int contador = 0;
             do
             {
-                System.Diagnostics.Debug.WriteLine(Users[contador].Username);
-                if (Users[contador].Username == username || Users[contador].email == username)
+                if (Users[contador].username == username || Users[contador].email == username)
                 {
                     encontrado = true;
                 }
-                contador++;
+                else
+                {
+                    contador++;
+                }
             } while (contador < Users.Count && encontrado == false);
             if (encontrado)
             {
@@ -43,7 +45,15 @@ namespace Proyecto_blend__UWP_.Clases
 
         public static bool matchesPassword(String password, int user)
         {
-            return Users[user].Password == password;
+            System.Diagnostics.Debug.WriteLine(password);
+            if (Users[user].password == password)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

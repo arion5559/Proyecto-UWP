@@ -8,16 +8,19 @@ namespace Proyecto_blend__UWP_.Clases
 {
     internal class Usuario
     {
-        public String Username { get; set; }
-        public String Password { get; set; }
+        public String username { get; set; }
+        public String password { get; set; }
         public String email { get; set; }
         public DateTime bornDate { get; set; }
+        public bool session { get; set; }
 
-        public Usuario(string username, string password, DateTime bornDate)
+        public Usuario(string username, string password, DateTime bornDate, string email, bool session)
         {
-            this.Username = username;
-            this.Password = password;
+            this.username = username;
+            this.password = password;
             this.bornDate = bornDate;
+            this.email = email;
+            this.session = session;
         }
     }
 }

@@ -59,8 +59,9 @@ namespace Proyecto_blend__UWP_
 
             idUsuario = Usuarios.LookForUser(username);
 
-            if (idUsuario == 0)
+            if (idUsuario != -1)
             {
+                System.Diagnostics.Debug.WriteLine(password);
                 if (Usuarios.matchesPassword(password, idUsuario))
                 {
                     int id = 0;
@@ -69,8 +70,8 @@ namespace Proyecto_blend__UWP_
                     await secundaria.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                     {
                         Frame frame = new Frame();
-                        frame.Navigate(typeof(Principal), principal);
-                        Window.Current.Content = frame;
+                        frame.Navigate(typeof(Principal), null);
+                        Window.Current.Content = principal;
                         Window.Current.Activate();
 
                         id = ApplicationView.GetForCurrentView().Id;
