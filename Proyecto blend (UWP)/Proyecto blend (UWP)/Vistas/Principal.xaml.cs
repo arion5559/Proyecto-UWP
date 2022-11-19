@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Proyecto_blend__UWP_.Clases
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -22,11 +23,18 @@ namespace Proyecto_blend__UWP_
     /// </summary>
     public sealed partial class Principal : Page
     {
-        int Usuario;
-        public Principal(int idUsuario)
+        Usuario Usuario;
+        public Principal()
         {
             this.InitializeComponent();
-            this.Usuario = idUsuario;
+            foreach (Usuario user in Usuarios.Users)
+            {
+                if (user.session)
+                {
+                    Usuario = user;
+                    break;
+                }
+            }
         }
     }
 }

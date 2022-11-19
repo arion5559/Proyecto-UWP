@@ -66,12 +66,12 @@ namespace Proyecto_blend__UWP_
                 {
                     int id = 0;
                     var secundaria = CoreApplication.CreateNewView();
-                    Principal principal = new Principal(idUsuario);
+                    Principal principal = new Principal();
                     await secundaria.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                     {
                         Frame frame = new Frame();
                         frame.Navigate(typeof(Principal), null);
-                        Window.Current.Content = principal;
+                        Window.Current.Content = frame;
                         Window.Current.Activate();
 
                         id = ApplicationView.GetForCurrentView().Id;
