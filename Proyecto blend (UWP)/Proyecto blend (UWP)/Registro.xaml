@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="Proyecto_blend__UWP_.Registro"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Proyecto_blend__UWP_"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RequestedTheme="Light">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF303B41" Offset="0.499"/>
+                <GradientStop Color="#FFE9F8FD" Offset="0.5"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Canvas Width="1774" Height="717" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="0,285,0,0" FocusVisualPrimaryBrush="White" FocusVisualSecondaryBrush="#99FFFFFF" Background="White">
+            <Canvas.RenderTransform>
+                <CompositeTransform SkewY="-0.436" TranslateY="-2.053"/>
+            </Canvas.RenderTransform>
+            <TextBox x:Name="txtNombre" Height="92" Canvas.Left="44" TextWrapping="Wrap" Text="" Canvas.Top="130" Width="676" PlaceholderText="Nombre de usuario" HorizontalAlignment="Center" FontSize="48" BorderThickness="4,4,4,4" CornerRadius="15,15,15,15" FocusVisualSecondaryBrush="{x:Null}" SelectionHighlightColor="#FFFC6400"/>
+            <TextBlock Height="78" Canvas.Left="65" TextWrapping="Wrap" Text="Usuario" Canvas.Top="40" Width="627" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="48"/>
+            <TextBox x:Name="txtNombre_Copy" Height="92" Canvas.Left="43" TextWrapping="Wrap" Text="" Canvas.Top="337" Width="676" PlaceholderText="Email" FontSize="48" BorderThickness="4,4,4,4" CornerRadius="15,15,15,15" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBlock Height="78" Canvas.Left="65" TextWrapping="Wrap" Text="Email" Canvas.Top="246" Width="627" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Height="58" Canvas.Left="1111" TextWrapping="Wrap" Text="¿Ya estás registrado?" Canvas.Top="492" Width="471" FontSize="36" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button Content="LogIn" Height="62" Canvas.Left="1469" Canvas.Top="491" Width="213" FontSize="34" CornerRadius="10,10,10,10"/>
+            <Button x:Name="btnEntrar" Content="Entrar" Height="87" Canvas.Left="1056" Canvas.Top="570" Width="676" CornerRadius="10,10,10,10" FontSize="48"/>
+            <TextBox x:Name="txtNombre_Copy1" Height="92" Canvas.Left="1064" TextWrapping="Wrap" Text="" Canvas.Top="130" Width="676" PlaceholderText="Password" FontSize="48" BorderThickness="4,4,4,4" CornerRadius="15,15,15,15" FocusVisualSecondaryBrush="{x:Null}" SelectionHighlightColor="#FFFC6400" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock Height="78" Canvas.Left="1085" TextWrapping="Wrap" Text="Contraseña" Canvas.Top="40" Width="627" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtNombre_Copy2" Height="92" Canvas.Left="1063" TextWrapping="Wrap" Text="" Canvas.Top="337" Width="676" PlaceholderText="Confirm password" FontSize="48" BorderThickness="4,4,4,4" CornerRadius="15,15,15,15" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock Height="78" Canvas.Left="1085" TextWrapping="Wrap" Text="Confirm password" Canvas.Top="246" Width="627" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="btnFotoPerfil" Height="200" Canvas.Left="88.798" Canvas.Top="459.293" Width="228" CornerRadius="98,98,98,98" Click="addProfileImage">
+                <Button.Background>
+                    <ImageBrush ImageSource="/img/img_206976.png"/>
+                </Button.Background>
+                <Button.FocusVisualPrimaryBrush>
+                    <ImageBrush/>
+                </Button.FocusVisualPrimaryBrush>
+            </Button>
+        </Canvas>
+        <TextBlock HorizontalAlignment="Center" Height="172" TextWrapping="Wrap" Text="Registro" VerticalAlignment="Top" Width="746" Margin="0,75,0,0" TextAlignment="Center" FontSize="72" FontFamily="Engravers MT"/>
+
+    </Grid>
+</Page>
