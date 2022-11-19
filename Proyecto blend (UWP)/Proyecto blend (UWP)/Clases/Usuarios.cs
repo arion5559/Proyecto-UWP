@@ -8,25 +8,25 @@ using Proyecto_blend__UWP_.Clases;
 
 namespace Proyecto_blend__UWP_.Clases
 {
-    internal class Usuarios
+    class Usuarios
     {
-        public List < Usuario > Users { get; set; } = new List<Usuario>()
+        public static List <Usuario> Users { get; set; } = new List<Usuario>()
         {
             new Usuario(username: "Admin", password: "1234", bornDate: DateTime.Now)
         };
         
-        public void AddUser(Usuario user)
+        public static void AddUser(Usuario user)
         {
             Users.Add(user);
         }
 
-        public int LookForUser(String username)
+        public static int LookForUser(String username)
         {
             bool encontrado = false;
             int contador = 0;
             do
             {
-                if (Users[contador].Username == username)
+                if (Users[contador].Username == username || Users[contador].email == username)
                 {
                     encontrado = true;
                 }
@@ -40,7 +40,7 @@ namespace Proyecto_blend__UWP_.Clases
             }
         }
 
-        public bool matchesPassword(String password, int user)
+        public static bool matchesPassword(String password, int user)
         {
             return Users[user].Password == password;
         }

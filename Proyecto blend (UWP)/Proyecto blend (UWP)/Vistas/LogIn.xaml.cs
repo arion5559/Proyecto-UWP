@@ -16,6 +16,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Proyecto_blend__UWP_.Clases;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -45,6 +46,25 @@ namespace Proyecto_blend__UWP_
                 id = ApplicationView.GetForCurrentView().Id;
             });
             await ApplicationViewSwitcher.SwitchAsync(id);
+        }
+
+        private void clickCheckEnter(object sender, RoutedEventArgs e)
+        {
+            String username = txtNombre.Text;
+            String password = txtPsw.Password.ToString();
+            int idUsuario = 0;
+
+            idUsuario = Usuarios.LookForUser(username);
+
+            if (idUsuario == 0)
+            {
+                if (!Usuarios.matchesPassword(password, idUsuario))
+                {
+
+                }
+            }
+
+
         }
     }
 }

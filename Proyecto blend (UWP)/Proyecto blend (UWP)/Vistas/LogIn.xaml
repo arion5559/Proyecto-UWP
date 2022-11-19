@@ -21,12 +21,12 @@
             </Canvas.RenderTransform>
             <TextBox x:Name="txtNombre" Height="92" Canvas.Left="44" TextWrapping="Wrap" Text="" Canvas.Top="130" Width="676" PlaceholderText="Email" HorizontalAlignment="Center" FontSize="48" BorderThickness="4,4,4,4" CornerRadius="15,15,15,15" FocusVisualSecondaryBrush="{x:Null}" SelectionHighlightColor="#FFFC6400"/>
             <TextBlock Height="78" Canvas.Left="65" TextWrapping="Wrap" Text="Usuario" Canvas.Top="40" Width="627" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="48"/>
-            <TextBox x:Name="txtNombre_Copy" Height="92" Canvas.Left="43" TextWrapping="Wrap" Text="" Canvas.Top="337" Width="676" PlaceholderText="Password" FontSize="48" BorderThickness="4,4,4,4" CornerRadius="15,15,15,15" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <TextBlock Height="78" Canvas.Left="65" TextWrapping="Wrap" Text="Contraseña" Canvas.Top="246" Width="627" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <Button x:Name="forgetPsw" Content="¿Olvidaste tu contraseña?" Height="74" Canvas.Left="52" Canvas.Top="425" Width="434" FontSize="36" Foreground="#FF303B41" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Top" FocusVisualPrimaryBrush="White" FocusVisualSecondaryBrush="#FF59656B" CornerRadius="80,80,80,80" RenderTransformOrigin="0.482,0.16"/>
             <TextBlock Height="58" Canvas.Left="61" TextWrapping="Wrap" Text="¿No estás registrado?" Canvas.Top="492" Width="471" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <Button x:Name="btnRegister" Content="Registrarse" Height="62" Canvas.Left="419" Canvas.Top="490.985" VerticalAlignment="Top" Width="213" FontSize="34" CornerRadius="10,10,10,10" HorizontalAlignment="Center" Click="goRegisterAsync"/>
-            <Button x:Name="btnEntrar" Content="Entrar" Height="87" Canvas.Left="51.5" Canvas.Top="570.042" VerticalAlignment="Top" Width="676" HorizontalAlignment="Center" CornerRadius="10,10,10,10" FontSize="48"/>
+            <Button x:Name="btnEntrar" Content="Entrar" Height="87" Canvas.Left="51.5" Canvas.Top="570.042" VerticalAlignment="Top" Width="676" HorizontalAlignment="Center" CornerRadius="10,10,10,10" FontSize="48" Click="clickCheckEnter"/>
+            <PasswordBox x:Name="txtPsw" Height="92" Canvas.Left="48.619" Canvas.Top="328.189" Width="676" CornerRadius="15,15,15,15" BorderThickness="4,4,4,4"/>
         </Canvas>
         <TextBlock HorizontalAlignment="Center" Height="172" TextWrapping="Wrap" Text="Iniciar Sesión" VerticalAlignment="Top" Width="746" TextAlignment="Center" FontSize="72" FontFamily="Engravers MT" Margin="0,40,0,0"/>
 

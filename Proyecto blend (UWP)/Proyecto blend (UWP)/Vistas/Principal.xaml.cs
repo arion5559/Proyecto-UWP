@@ -22,7 +22,7 @@ namespace Proyecto_blend__UWP_
     /// </summary>
     public sealed partial class Principal : Page
     {
-        public Principal()
+        public Principal(int idUsuario)
         {
             this.InitializeComponent();
         }
