@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-19T18:07:40.370</Modified>
+      <Modified>2022-11-19T21:06:43.208</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Proyecto blend %28UWP%29.exe">
       <PackagePath>entrypoint\Proyecto blend %28UWP%29.exe</PackagePath>
-      <Modified>2022-11-19T18:07:39.742</Modified>
+      <Modified>2022-11-19T21:06:42.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.bcl.asyncinterfaces\7.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -130,27 +130,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Proyecto blend %28UWP%29.xr.xml">
       <PackagePath>Proyecto blend %28UWP%29.xr.xml</PackagePath>
-      <Modified>2022-11-19T18:07:39.654</Modified>
+      <Modified>2022-11-19T20:24:15.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-11-19T18:07:39.671</Modified>
+      <Modified>2022-11-19T21:06:42.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Bienvenida.xbf">
       <PackagePath>Vistas\Bienvenida.xbf</PackagePath>
-      <Modified>2022-11-19T18:07:39.671</Modified>
+      <Modified>2022-11-19T21:06:42.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\LogIn.xbf">
       <PackagePath>Vistas\LogIn.xbf</PackagePath>
-      <Modified>2022-11-19T18:07:39.671</Modified>
+      <Modified>2022-11-19T21:06:42.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Principal.xbf">
       <PackagePath>Vistas\Principal.xbf</PackagePath>
-      <Modified>2022-11-19T18:07:39.672</Modified>
+      <Modified>2022-11-19T21:06:42.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Registro.xbf">
       <PackagePath>Vistas\Registro.xbf</PackagePath>
-      <Modified>2022-11-19T18:07:39.672</Modified>
+      <Modified>2022-11-19T21:06:42.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -158,11 +158,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-19T18:07:40.001</Modified>
+      <Modified>2022-11-19T21:06:42.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Core\Proyecto blend %28UWP%29.exe">
       <PackagePath>Proyecto blend %28UWP%29.exe</PackagePath>
-      <Modified>2022-11-19T18:07:40.364</Modified>
+      <Modified>2022-11-19T21:06:43.206</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

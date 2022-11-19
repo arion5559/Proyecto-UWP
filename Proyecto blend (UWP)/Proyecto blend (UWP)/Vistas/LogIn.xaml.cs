@@ -17,6 +17,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Proyecto_blend__UWP_.Clases;
+using Windows.UI.Popups;
+
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -48,23 +50,42 @@ namespace Proyecto_blend__UWP_
             await ApplicationViewSwitcher.SwitchAsync(id);
         }
 
-        private void clickCheckEnter(object sender, RoutedEventArgs e)
+        private async void clickCheckEnter(object sender, RoutedEventArgs e)
         {
             String username = txtNombre.Text;
             String password = txtPsw.Password.ToString();
             int idUsuario = 0;
+            var dialog = new MessageDialog("");
 
             idUsuario = Usuarios.LookForUser(username);
 
             if (idUsuario == 0)
             {
-                if (!Usuarios.matchesPassword(password, idUsuario))
+                if (Usuarios.matchesPassword(password, idUsuario))
                 {
+                    int id = 0;
+                    var secundaria = CoreApplication.CreateNewView();
+                    Principal principal = new Principal(idUsuario);
+                    await secundaria.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+                    {
+                        Frame frame = new Frame();
+                        frame.Navigate(typeof(Principal), principal);
+                        Window.Current.Content = frame;
+                        Window.Current.Activate();
 
+                        id = ApplicationView.GetForCurrentView().Id;
+                    });
+                    await ApplicationViewSwitcher.SwitchAsync(id);
+                } 
+                else
+                {
+                    dialog = new MessageDialog("Contraseña incorrecta");
                 }
             }
-
-
+            else
+            {
+                dialog = new MessageDialog("Usuario no existe");
+            }
         }
     }
 }

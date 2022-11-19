@@ -12,7 +12,7 @@ namespace Proyecto_blend__UWP_.Clases
     {
         public static List <Usuario> Users { get; set; } = new List<Usuario>()
         {
-            new Usuario(username: "Admin", password: "1234", bornDate: DateTime.Now)
+            new Usuario(username: "admin", password: "1234", bornDate: DateTime.Now)
         };
         
         public static void AddUser(Usuario user)
@@ -26,6 +26,7 @@ namespace Proyecto_blend__UWP_.Clases
             int contador = 0;
             do
             {
+                System.Diagnostics.Debug.WriteLine(Users[contador].Username);
                 if (Users[contador].Username == username || Users[contador].email == username)
                 {
                     encontrado = true;
