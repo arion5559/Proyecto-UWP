@@ -12,7 +12,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using Proyecto_blend__UWP_.Clases
+using Proyecto_blend__UWP_.Clases;
+using Windows.UI.Xaml.Media.Imaging;
+using Windows.Storage.Streams;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -33,8 +35,22 @@ namespace Proyecto_blend__UWP_
                 {
                     Usuario = user;
                     break;
-                }
+                };
+            };
+
+            if (Usuario != null)
+            {
+                Image img = new Image();
+                BitmapImage bitmapImage = new BitmapImage();
+                bitmapImage.UriSource = new Uri(img.BaseUri, Usuario.photo);
+                img.Source = bitmapImage;
+                imgUser.Source = img.Source;
             }
+        }
+
+        private void goBuy(object sender, DoubleTappedRoutedEventArgs e)
+        {
+
         }
     }
 }

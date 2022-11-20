@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
         "projectName": "Proyecto blend (UWP)",
-        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

@@ -11,11 +11,17 @@
     <Grid RequestedTheme="Light">
         <NavigationView CompactModeThresholdWidth="0" x:Name="NavigationViewControl" RequestedTheme="Light" >
             <NavigationView.MenuItems>
-                <NavigationViewItem Content="Login" x:Name="Login" Icon="Contact"/>
-                <NavigationViewItem Content="Compra" x:Name="Compra" Icon="Shop" />
+                <NavigationViewItem Content="Main" x:Name="Main" Icon="Contact"/>
+                <NavigationViewItem Content="Compra" x:Name="Compra" Icon="Shop" DoubleTapped="goBuy" />
                 <NavigationViewItem Content="Añadir" x:Name="Anadir" Icon="Add" />
             </NavigationView.MenuItems>
+            <NavigationView.PaneFooter>
+                <NavigationViewItem Content="LogOut" x:Name="LogOut" Icon="Back"/>
+            </NavigationView.PaneFooter>
         </NavigationView>
+        <TextBlock HorizontalAlignment="Left" Height="926" TextWrapping="Wrap" Text="Lorem fistrum ese que llega no te digo trigo por no llamarte Rodrigor llevame al sircoo se calle ustée. Amatomaa jarl va usté muy cargadoo qué dise usteer a gramenawer no te digo trigo por no llamarte Rodrigor." VerticalAlignment="Top" Width="1086" Margin="422,72,0,0" FontSize="24"/>
+        <TextBlock x:Name="txtUser" HorizontalAlignment="Left" Height="29" Margin="1674,13,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="223"/>
+        <Image x:Name="imgUser" HorizontalAlignment="Left" Height="35" Margin="1628,13,0,0" VerticalAlignment="Top" Width="41"/>
 
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>

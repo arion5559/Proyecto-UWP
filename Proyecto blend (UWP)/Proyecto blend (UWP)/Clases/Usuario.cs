@@ -12,15 +12,17 @@ namespace Proyecto_blend__UWP_.Clases
         public String password { get; set; }
         public String email { get; set; }
         public DateTime bornDate { get; set; }
+        public string photo { get; set; }
         public bool session { get; set; }
 
-        public Usuario(string username, string password, DateTime bornDate, string email, bool session)
+        public Usuario(string username, string password, DateTime bornDate, string email, bool session, string photo)
         {
             this.username = username;
             this.password = password;
             this.bornDate = bornDate;
             this.email = email;
             this.session = session;
+            this.photo = photo;
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HrObRt1EdjY+pKfkVrdeBkOz1hKBTv/TvZl/MNBECks7cMQNImUwuTPZG0DicqKpqNWj+HC8pzcvrohV3pZPjw==",
+  "dgSpecHash": "59QM4Zx1OlfgphnJPdEmEu9g7HQKhC62+tZBWhnndm5JG22wH2DKDa6vnOCbSydTRzKYf1ecyy3lssgeAxljEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Source\\Repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",

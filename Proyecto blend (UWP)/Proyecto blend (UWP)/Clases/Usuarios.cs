@@ -12,7 +12,7 @@ namespace Proyecto_blend__UWP_.Clases
     {
         public static List <Usuario> Users { get; set; } = new List<Usuario>()
         {
-            new Usuario(username: "admin", password: "1234", bornDate: DateTime.Now, email: "ejemplo@nada.com", session: false);
+            new Usuario(username: "admin", password: "1234", bornDate: DateTime.Now, email: "ejemplo@nada.com", session: false, photo: "..\\img\\img_206976.png")
         };
         
         public static void AddUser(Usuario user)
