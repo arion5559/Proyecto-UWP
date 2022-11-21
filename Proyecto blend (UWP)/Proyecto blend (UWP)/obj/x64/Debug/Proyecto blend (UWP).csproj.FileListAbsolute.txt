@@ -74,3 +74,13 @@ C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (
 C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Vistas\Ventas.xbf
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Ventas.g.i.cs
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Ventas.g.cs
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Ventas.xaml
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Vistas\Ventas.xbf
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\WebView2Loader.dll
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\bin\x64\Debug\Microsoft.Web.WebView2.Core.winmd
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637920505780000000.json

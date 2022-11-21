@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e0089ffc-7c3c-41c3-89fa-1ea49abbbfdd</PackageIdentityName>
     <PackageIdentityPublisher>CN=JCPAG</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2AE657BE4658E7720E40C3CE8C190190C063F80F65D6EB642E1AC1C8B2227C36</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5A625F34C030F184B37EFB74BBE58E5DA7053E305DF9C02BC3419CFAC8C19DE0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e0089ffc-7c3c-41c3-89fa-1ea49abbbfdd_1.0.0.0_x64__jcha50f04x5qp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e0089ffc-7c3c-41c3-89fa-1ea49abbbfdd_jcha50f04x5qp!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e0089ffc-7c3c-41c3-89fa-1ea49abbbfdd</RegisteredPackageID>
@@ -27,16 +27,20 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-19T21:55:37.638</Modified>
+      <Modified>2022-11-20T22:12:52.547</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Proyecto blend %28UWP%29.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Proyecto blend %28UWP%29.exe">
       <PackagePath>entrypoint\Proyecto blend %28UWP%29.exe</PackagePath>
-      <Modified>2022-11-19T21:55:37.361</Modified>
+      <Modified>2022-11-20T22:12:51.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+      <Modified>2022-06-28T22:02:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.bcl.asyncinterfaces\7.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -66,6 +70,10 @@
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
       <Modified>2022-10-18T16:19:18.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\runtimes\win-x64\native\WebView2Loader.dll">
+      <PackagePath>WebView2Loader.dll</PackagePath>
+      <Modified>2022-06-28T22:02:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2022-06-10T22:23:28.000</Modified>
@@ -82,90 +90,151 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\860193.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\Microsoft.Web.WebView2.Core.winmd">
+      <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
+      <Modified>2022-06-28T22:02:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\860193.png">
       <PackagePath>img\860193.png</PackagePath>
       <Modified>2022-11-19T16:44:37.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\img_206976.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\img_206976.png">
       <PackagePath>img\img_206976.png</PackagePath>
       <Modified>2022-11-19T16:44:37.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2022-11-19T16:44:37.733</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-19T16:44:37.733</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-19T16:44:37.734</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-19T16:44:37.734</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-19T16:44:37.734</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-19T16:44:37.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-19T16:44:37.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-11-19T16:44:37.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Proyecto blend %28UWP%29.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Proyecto blend %28UWP%29.xr.xml">
       <PackagePath>Proyecto blend %28UWP%29.xr.xml</PackagePath>
-      <Modified>2022-11-19T21:30:50.458</Modified>
+      <Modified>2022-11-20T21:58:19.871</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-11-19T21:55:37.301</Modified>
+      <Modified>2022-11-20T22:12:50.762</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Bienvenida.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Bienvenida.xbf">
       <PackagePath>Vistas\Bienvenida.xbf</PackagePath>
-      <Modified>2022-11-19T21:55:37.301</Modified>
+      <Modified>2022-11-20T22:12:50.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\LogIn.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\LogIn.xbf">
       <PackagePath>Vistas\LogIn.xbf</PackagePath>
-      <Modified>2022-11-19T21:55:37.302</Modified>
+      <Modified>2022-11-20T22:12:50.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Principal.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Ventas.xbf">
+      <PackagePath>Vistas\Ventas.xbf</PackagePath>
+      <Modified>2022-11-20T22:12:50.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Principal.xbf">
       <PackagePath>Vistas\Principal.xbf</PackagePath>
-      <Modified>2022-11-19T21:55:37.302</Modified>
+      <Modified>2022-11-20T22:12:50.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Registro.xbf">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Registro.xbf">
       <PackagePath>Vistas\Registro.xbf</PackagePath>
-      <Modified>2022-11-19T21:55:37.302</Modified>
+      <Modified>2022-11-20T22:12:50.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2020-12-02T03:31:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\resources.pri">
-      <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-19T21:55:37.423</Modified>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2022-08-12T19:49:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Core\Proyecto blend %28UWP%29.exe">
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-11-20T22:12:51.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Core\Proyecto blend %28UWP%29.exe">
       <PackagePath>Proyecto blend %28UWP%29.exe</PackagePath>
-      <Modified>2022-11-19T21:55:37.636</Modified>
+      <Modified>2022-11-20T22:12:52.542</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
+      <Name>Microsoft.UI.Xaml.2.8</Name>
+      <Version>8.2208.12001.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2208.12001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Usuario\.nuget\packages\microsoft.ui.xaml\2.8.1\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Usuario\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.31331.1</Version>
@@ -253,6 +322,33 @@
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

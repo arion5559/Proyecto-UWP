@@ -1,1 +1,1 @@
-C:\Users\Usuario\Source\Repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\Proyecto blend (UWP).csproj;x64
+C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend (UWP)\Proyecto blend (UWP)\Proyecto blend (UWP).csproj;x64

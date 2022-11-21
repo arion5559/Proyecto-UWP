@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+﻿using Proyecto_blend__UWP_.Clases;
+using System;
+using Windows.ApplicationModel.Core;
+using Windows.UI.Core;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using Proyecto_blend__UWP_.Clases;
 using Windows.UI.Xaml.Media.Imaging;
-using Windows.Storage.Streams;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -35,8 +27,8 @@ namespace Proyecto_blend__UWP_
                 {
                     Usuario = user;
                     break;
-                };
-            };
+                }
+            }
 
             if (Usuario != null)
             {
@@ -45,6 +37,7 @@ namespace Proyecto_blend__UWP_
                 bitmapImage.UriSource = new Uri(img.BaseUri, Usuario.photo);
                 img.Source = bitmapImage;
                 imgUser.Source = img.Source;
+                txtUser.Text = Usuario.username;
             }
         }
 
@@ -52,5 +45,32 @@ namespace Proyecto_blend__UWP_
         {
 
         }
+
+        private async void logOut(object sender, DoubleTappedRoutedEventArgs e)
+        {
+            foreach (Usuario user in Usuarios.Users)
+            {
+                if (user.Equals(Usuario))
+                {
+                    user.session = false;
+                    break;
+                }
+            }
+            int id = 0;
+            var secundaria = CoreApplication.CreateNewView();
+            Principal principal = new Principal();
+            await secundaria.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            {
+                Frame frame = new Frame();
+                frame.Navigate(typeof(LogIn), null);
+                Window.Current.Content = frame;
+                Window.Current.Activate();
+
+                id = ApplicationView.GetForCurrentView().Id;
+            });
+            await ApplicationViewSwitcher.SwitchAsync(id);
+        }
     }
+
+
 }
