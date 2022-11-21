@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "59QM4Zx1OlfgphnJPdEmEu9g7HQKhC62+tZBWhnndm5JG22wH2DKDa6vnOCbSydTRzKYf1ecyy3lssgeAxljEA==",
+  "dgSpecHash": "qoejizNsSCUlqcHK0eVeovlmXDHIV5oEqrA5V/uGOhZjJ7eeGkwGafW/U3t6hhv+idul8cENuI6OI++zBCo8iA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\Proyecto-UWP\\Proyecto blend (UWP)\\Proyecto blend (UWP)\\Proyecto blend (UWP).csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,8 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.14\\microsoft.netcore.universalwindowsplatform.6.2.14.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.ui.xaml\\2.8.1\\microsoft.ui.xaml.2.8.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.web.webview2\\1.0.1264.42\\microsoft.web.webview2.1.0.1264.42.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.14\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.14.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.12-rel-31116-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",

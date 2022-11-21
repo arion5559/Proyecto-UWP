@@ -1,20 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections;
-using Proyecto_blend__UWP_.Clases;
 
 namespace Proyecto_blend__UWP_.Clases
 {
     class Usuarios
     {
-        public static List <Usuario> Users { get; set; } = new List<Usuario>()
+        public static List<Usuario> Users { get; set; } = new List<Usuario>()
         {
-            new Usuario(username: "admin", password: "1234", bornDate: DateTime.Now, email: "ejemplo@nada.com", session: false, photo: "..\\img\\img_206976.png")
+            new Usuario(username: "admin", password: "1234", bornDate: DateTimeOffset.Now, email: "ejemplo@nada.com", session: false, photo: "..\\img\\img_206976.png")
         };
-        
+
         public static void AddUser(Usuario user)
         {
             Users.Add(user);
@@ -38,7 +33,9 @@ namespace Proyecto_blend__UWP_.Clases
             if (encontrado)
             {
                 return contador;
-            } else {
+            }
+            else
+            {
                 return -1;
             }
         }

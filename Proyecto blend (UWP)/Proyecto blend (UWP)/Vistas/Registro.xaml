@@ -25,7 +25,7 @@
             <TextBlock Height="78" Canvas.Left="65" TextWrapping="Wrap" Text="Email" Canvas.Top="246" Width="627" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <TextBlock Height="58" Canvas.Left="1111" TextWrapping="Wrap" Text="¿Ya estás registrado?" Canvas.Top="492" Width="471" FontSize="36" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <Button Content="LogIn" Height="62" Canvas.Left="1469" Canvas.Top="491" Width="213" FontSize="34" CornerRadius="10,10,10,10" Click="goLogInAsync"/>
-            <Button x:Name="btnEntrar" Content="Entrar" Height="87" Canvas.Left="1056" Canvas.Top="570" Width="676" CornerRadius="10,10,10,10" FontSize="48"/>
+            <Button x:Name="btnEntrar" Content="Entrar" Height="87" Canvas.Left="1056" Canvas.Top="570" Width="676" CornerRadius="10,10,10,10" FontSize="48" Click="register"/>
             <TextBlock Height="78" Canvas.Left="1085" TextWrapping="Wrap" Text="Contraseña" Canvas.Top="40" Width="627" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <TextBlock Height="78" Canvas.Left="1085" TextWrapping="Wrap" Text="Confirmar contraseña" Canvas.Top="246" Width="627" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <Button x:Name="btnFotoPerfil" Height="200" Canvas.Left="40.798" Canvas.Top="462.928" Width="228" CornerRadius="98,98,98,98" Click="addProfileImage" VerticalAlignment="Top">
@@ -36,9 +36,9 @@
                     <ImageBrush/>
                 </Button.FocusVisualPrimaryBrush>
             </Button>
-            <PasswordBox Height="92" Canvas.Left="1075" Canvas.Top="130" Width="676" CornerRadius="15,15,15,15" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" PlaceholderText="Password" BorderThickness="4,4,4,4"/>
-            <PasswordBox Height="92" Canvas.Left="1075" Canvas.Top="337" Width="676" CornerRadius="15,15,15,15" HorizontalAlignment="Left" VerticalAlignment="Top" PlaceholderText="Confirm password" FontSize="48" BorderThickness="4,4,4,4"/>
-            <DatePicker Height="75" Canvas.Left="301" Canvas.Top="549.019" Width="464" FontSize="48"/>
+            <PasswordBox x:Name="psw" Height="92" Canvas.Left="1075" Canvas.Top="130" Width="676" CornerRadius="15,15,15,15" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" PlaceholderText="Password" BorderThickness="4,4,4,4"/>
+            <PasswordBox x:Name="pswConfirm" Height="92" Canvas.Left="1075" Canvas.Top="337" Width="676" CornerRadius="15,15,15,15" HorizontalAlignment="Left" VerticalAlignment="Top" PlaceholderText="Confirm password" FontSize="48" BorderThickness="4,4,4,4"/>
+            <DatePicker x:Name="bornDate" Height="75" Canvas.Left="301" Canvas.Top="549.019" Width="464" FontSize="48"/>
             <TextBlock Height="78" Canvas.Left="305" TextWrapping="Wrap" Text="Fecha de nacimiento" Canvas.Top="468" Width="627" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         </Canvas>
         <TextBlock HorizontalAlignment="Center" Height="172" TextWrapping="Wrap" Text="Registro" VerticalAlignment="Top" Width="746" Margin="0,75,0,0" TextAlignment="Center" FontSize="72" FontFamily="Engravers MT"/>

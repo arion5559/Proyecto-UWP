@@ -1,23 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Threading.Tasks;
+﻿using Proyecto_blend__UWP_.Clases;
+using System;
 using Windows.ApplicationModel.Core;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Core;
+using Windows.UI.Popups;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using Proyecto_blend__UWP_.Clases;
-using Windows.UI.Popups;
 
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -77,7 +65,7 @@ namespace Proyecto_blend__UWP_
                         id = ApplicationView.GetForCurrentView().Id;
                     });
                     await ApplicationViewSwitcher.SwitchAsync(id);
-                } 
+                }
                 else
                 {
                     dialog = new MessageDialog("Contraseña incorrecta");
