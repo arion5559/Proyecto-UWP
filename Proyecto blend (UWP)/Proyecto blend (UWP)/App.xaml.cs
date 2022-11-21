@@ -4,6 +4,7 @@ using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
+using Proyecto_blend__UWP_.Vistas;
 
 namespace Proyecto_blend__UWP_
 {

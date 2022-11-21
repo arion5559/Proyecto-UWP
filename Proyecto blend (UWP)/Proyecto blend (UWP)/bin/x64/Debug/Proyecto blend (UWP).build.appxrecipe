@@ -73,8 +73,23 @@
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\860193.png">
       <PackagePath>img\860193.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\d7f39385a7dbce959d061d4f5316f791.png">
+      <PackagePath>img\d7f39385a7dbce959d061d4f5316f791.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\img_206976.png">
       <PackagePath>img\img_206976.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\kisspng-scalable-vector-graphics-computer-icons-clip-art-i-our-landlord-amp-property-management-software-is-5c0886e4ee8956.7315468715440626929771.png">
+      <PackagePath>img\kisspng-scalable-vector-graphics-computer-icons-clip-art-i-our-landlord-amp-property-management-software-is-5c0886e4ee8956.7315468715440626929771.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\klipartz.com.png">
+      <PackagePath>img\klipartz.com.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\new-file_40454.png">
+      <PackagePath>img\new-file_40454.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\pngkey.com-red-button-png-1531775.png">
+      <PackagePath>img\pngkey.com-red-button-png-1531775.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -103,6 +118,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\Logo empresa.jpg">
+      <PackagePath>img\Logo empresa.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -115,17 +133,23 @@
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Bienvenida.xbf">
       <PackagePath>Vistas\Bienvenida.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Compra.xbf">
+      <PackagePath>Vistas\Compra.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\LogIn.xbf">
       <PackagePath>Vistas\LogIn.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Ventas.xbf">
-      <PackagePath>Vistas\Ventas.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Main.xbf">
+      <PackagePath>Vistas\Main.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Principal.xbf">
       <PackagePath>Vistas\Principal.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Registro.xbf">
       <PackagePath>Vistas\Registro.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Reloj.xbf">
+      <PackagePath>Vistas\Reloj.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>

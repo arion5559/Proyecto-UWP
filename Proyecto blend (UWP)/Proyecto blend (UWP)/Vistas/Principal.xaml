@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Proyecto_blend__UWP_.Principal"
+    x:Class="Proyecto_blend__UWP_.Vistas.Principal"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Proyecto_blend__UWP_"
@@ -9,17 +9,18 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Light">
 
     <Grid RequestedTheme="Light">
-        <NavigationView CompactModeThresholdWidth="0" x:Name="NavigationViewControl" RequestedTheme="Light" >
+        <NavigationView x:Name="NavigationViewControl" RequestedTheme="Light" ItemInvoked="NavigationViewControl_ItemInvoked" SelectionChanged="NavigationViewControl_SelectionChanged"
+                        IsBackEnabled="{Binding ElementName=ContentFrame, Path=CanGoBack}">
             <NavigationView.MenuItems>
-                <NavigationViewItem Content="Main" x:Name="Main" Icon="Contact"/>
-                <NavigationViewItem Content="Compra" x:Name="Compra" Icon="Shop" DoubleTapped="goBuy" />
-                <NavigationViewItem Content="Añadir" x:Name="Anadir" Icon="Add" />
+                <NavigationViewItem Content="Main" Icon="Contact" Tag="PaginaPrincipal"/>
+                <NavigationViewItem Content="Compra" Icon="Shop" Tag="Sales"/>
+                <NavigationViewItem Content="Hora" Icon="Clock" Tag="Hora"/>
             </NavigationView.MenuItems>
             <NavigationView.PaneFooter>
                 <NavigationViewItem Content="LogOut" x:Name="LogOut" Icon="Back" DoubleTapped="logOut"/>
             </NavigationView.PaneFooter>
+            <Frame x:Name="ContentFrame"></Frame>
         </NavigationView>
-        <TextBlock HorizontalAlignment="Left" Height="926" TextWrapping="Wrap" Text="Lorem fistrum ese que llega no te digo trigo por no llamarte Rodrigor llevame al sircoo se calle ustée. Amatomaa jarl va usté muy cargadoo qué dise usteer a gramenawer no te digo trigo por no llamarte Rodrigor." VerticalAlignment="Top" Width="1086" Margin="422,72,0,0" FontSize="24"/>
         <TextBlock x:Name="txtUser" HorizontalAlignment="Left" Height="29" Margin="1674,13,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="223"/>
         <Image x:Name="imgUser" HorizontalAlignment="Left" Height="35" Margin="1628,13,0,0" VerticalAlignment="Top" Width="41"/>
 

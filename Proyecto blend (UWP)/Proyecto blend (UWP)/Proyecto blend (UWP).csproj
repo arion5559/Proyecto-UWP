@@ -124,11 +124,14 @@
     <Compile Include="Vistas\Bienvenida.xaml.cs">
       <DependentUpon>Bienvenida.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\Compra.xaml.cs">
+      <DependentUpon>Compra.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\LogIn.xaml.cs">
       <DependentUpon>LogIn.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Ventas.xaml.cs">
-      <DependentUpon>Ventas.xaml</DependentUpon>
+    <Compile Include="Vistas\Main.xaml.cs">
+      <DependentUpon>Main.xaml</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Principal.xaml.cs">
       <DependentUpon>Principal.xaml</DependentUpon>
@@ -136,6 +139,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vistas\Registro.xaml.cs">
       <DependentUpon>Registro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reloj.xaml.cs">
+      <DependentUpon>Reloj.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -145,7 +151,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\860193.png" />
+    <Content Include="img\d7f39385a7dbce959d061d4f5316f791.png" />
     <Content Include="img\img_206976.png" />
+    <Content Include="img\kisspng-scalable-vector-graphics-computer-icons-clip-art-i-our-landlord-amp-property-management-software-is-5c0886e4ee8956.7315468715440626929771.png" />
+    <Content Include="img\klipartz.com.png" />
+    <Content Include="img\Logo empresa.jpg" />
+    <Content Include="img\new-file_40454.png" />
+    <Content Include="img\pngkey.com-red-button-png-1531775.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -164,19 +176,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Vistas\LogIn.xaml">
+    <Page Include="Vistas\Compra.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Vistas\Ventas.xaml">
+    <Page Include="Vistas\LogIn.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Vistas\Main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Vistas\Principal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Vistas\Registro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Reloj.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -197,7 +217,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="gif\" />
-    <Folder Include="img\img\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

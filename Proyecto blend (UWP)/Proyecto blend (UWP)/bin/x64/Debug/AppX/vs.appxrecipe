@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>5A625F34C030F184B37EFB74BBE58E5DA7053E305DF9C02BC3419CFAC8C19DE0</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>FC0B1E9B7E468700FB7EC8953807F7461CEB872523FD550BEF49DC4C7667679D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e0089ffc-7c3c-41c3-89fa-1ea49abbbfdd_1.0.0.0_x64__jcha50f04x5qp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e0089ffc-7c3c-41c3-89fa-1ea49abbbfdd_jcha50f04x5qp!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e0089ffc-7c3c-41c3-89fa-1ea49abbbfdd</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-20T22:12:52.547</Modified>
+      <Modified>2022-11-21T22:45:41.064</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Proyecto blend %28UWP%29.exe">
       <PackagePath>entrypoint\Proyecto blend %28UWP%29.exe</PackagePath>
-      <Modified>2022-11-20T22:12:51.004</Modified>
+      <Modified>2022-11-21T22:45:40.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
@@ -98,9 +98,29 @@
       <PackagePath>img\860193.png</PackagePath>
       <Modified>2022-11-19T16:44:37.785</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\d7f39385a7dbce959d061d4f5316f791.png">
+      <PackagePath>img\d7f39385a7dbce959d061d4f5316f791.png</PackagePath>
+      <Modified>2022-11-21T19:33:43.395</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\img_206976.png">
       <PackagePath>img\img_206976.png</PackagePath>
       <Modified>2022-11-19T16:44:37.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\kisspng-scalable-vector-graphics-computer-icons-clip-art-i-our-landlord-amp-property-management-software-is-5c0886e4ee8956.7315468715440626929771.png">
+      <PackagePath>img\kisspng-scalable-vector-graphics-computer-icons-clip-art-i-our-landlord-amp-property-management-software-is-5c0886e4ee8956.7315468715440626929771.png</PackagePath>
+      <Modified>2022-11-21T19:33:43.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\klipartz.com.png">
+      <PackagePath>img\klipartz.com.png</PackagePath>
+      <Modified>2022-11-21T19:33:43.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\new-file_40454.png">
+      <PackagePath>img\new-file_40454.png</PackagePath>
+      <Modified>2022-11-21T19:33:43.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\pngkey.com-red-button-png-1531775.png">
+      <PackagePath>img\pngkey.com-red-button-png-1531775.png</PackagePath>
+      <Modified>2022-11-21T19:33:43.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -136,37 +156,49 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-19T16:44:37.735</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\img\Logo empresa.jpg">
+      <PackagePath>img\Logo empresa.jpg</PackagePath>
+      <Modified>2022-11-21T19:33:43.414</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-11-19T16:44:37.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Proyecto blend %28UWP%29.xr.xml">
       <PackagePath>Proyecto blend %28UWP%29.xr.xml</PackagePath>
-      <Modified>2022-11-20T21:58:19.871</Modified>
+      <Modified>2022-11-21T22:44:34.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-11-20T22:12:50.762</Modified>
+      <Modified>2022-11-21T22:45:40.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Bienvenida.xbf">
       <PackagePath>Vistas\Bienvenida.xbf</PackagePath>
-      <Modified>2022-11-20T22:12:50.763</Modified>
+      <Modified>2022-11-21T22:45:40.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Compra.xbf">
+      <PackagePath>Vistas\Compra.xbf</PackagePath>
+      <Modified>2022-11-21T22:45:40.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\LogIn.xbf">
       <PackagePath>Vistas\LogIn.xbf</PackagePath>
-      <Modified>2022-11-20T22:12:50.763</Modified>
+      <Modified>2022-11-21T22:45:40.465</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Ventas.xbf">
-      <PackagePath>Vistas\Ventas.xbf</PackagePath>
-      <Modified>2022-11-20T22:12:50.753</Modified>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Main.xbf">
+      <PackagePath>Vistas\Main.xbf</PackagePath>
+      <Modified>2022-11-21T22:45:40.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Principal.xbf">
       <PackagePath>Vistas\Principal.xbf</PackagePath>
-      <Modified>2022-11-20T22:12:50.763</Modified>
+      <Modified>2022-11-21T22:45:40.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Registro.xbf">
       <PackagePath>Vistas\Registro.xbf</PackagePath>
-      <Modified>2022-11-20T22:12:50.763</Modified>
+      <Modified>2022-11-21T22:45:40.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Vistas\Reloj.xbf">
+      <PackagePath>Vistas\Reloj.xbf</PackagePath>
+      <Modified>2022-11-21T22:45:40.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -182,11 +214,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-20T22:12:51.370</Modified>
+      <Modified>2022-11-21T22:33:28.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Usuario\source\repos\Proyecto-UWP\Proyecto blend %28UWP%29\Proyecto blend %28UWP%29\bin\x64\Debug\Core\Proyecto blend %28UWP%29.exe">
       <PackagePath>Proyecto blend %28UWP%29.exe</PackagePath>
-      <Modified>2022-11-20T22:12:52.542</Modified>
+      <Modified>2022-11-21T22:45:41.062</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
